@@ -6,6 +6,7 @@
 * Simple; core should never be more complex than a Plug
 * Secure
 * Performant under high request volume
+* Stable & fault tolerant
 * Extensible; simple API to add new Auth/Identity providers
 * Configurable from CLI _and_ optional administration web app
 * No requirement on JVM (CAS)
