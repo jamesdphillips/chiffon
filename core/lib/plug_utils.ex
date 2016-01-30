@@ -16,7 +16,6 @@ defmodule Cake.PlugUtils do
   ```elixir
   plug :confectionary # existing macro
   plugs [ :black, :white ] # Load enumerable
-  plugs Chocolate.load_all # ...
   ```
   """
   defmacro plugs(plugs, opts \\ []) do
